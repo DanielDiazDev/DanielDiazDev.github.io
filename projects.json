@@ -1,0 +1,178 @@
+[
+  {
+    "type": "commercial",
+    "name": "Gacha Marbles League",
+    "subtitle": "DEMO",
+    "company": "Dino Squire",
+    "categories": ["Strategy", "MPVP Selected(ADVA)", "Gacha", "Unity", "GOAP", "Data Driven"],
+    "image": "Images/Gacha Marbles.png",
+    "imageAlt": "Gacha Marbles League game artwork",
+    "contributions": [
+    "Designed a GOAP system for enemy turns that scores shot candidates using heuristics and selects actions via weighted stochastic choice with personality profiles.",
+    "Built a data-driven Power system with ScriptableObjects: polymorphic conditions and actions (SerializeReference) executed as sequenced coroutines with stamina cost and combat event resolution.",
+    "Implemented a save/load persistence manager supporting multiple player profiles, auto-save intervals, optional encryption, and an IDataPersistence interface for scene-wide state synchronization.",
+    "Architected an asynchronous Command pattern for battle events with priority-based execution, coroutine sequencing, and decoupled feedback playback via MoreMountains MMFeedbacks.",
+    "Developed a battle architecture using Service Locator dependency injection and a phase-based state machine to orchestrate combat systems."
+  ],
+    "sampleContributions": false,
+    "playUrl": "https://dinosquire.itch.io/gacha-marbles",
+    "playLabel": "Play on itch.io",
+     "additionalLinks": [
+  { "label": "Teaser", "url": "https://www.youtube.com/watch?v=eJ0rffZist4" }
+     ]
+  },
+  {
+    "type": "commercial",
+    "name": "Folkvangr",
+    "subtitle": "IN PROGRESS",
+    "company": "Silverline Studios",
+    "categories": ["Fighter", "Roguelike", "Multiplayer Online", "Unity", "Local Multiplayer", "Attack Editor"],
+    "image": "Images/Folkvangr image.jpg",
+    "imageAlt": "Folkvangr portrait",
+    "contributions": [
+    "Developed a scalable roguelike reward card management system.",
+    "Implemented the MVC pattern across the UI layer to improve maintainability and separation of concerns.",
+    "Built a UI navigation framework for panel transitions.",
+    "Using a Scriptable Object Architecture Pattern (SOAP).",
+    "Developed a scalable combat system supporting both PvP and AI opponents.",
+    "Developed local multiplayer functionality"
+  ],
+    "sampleContributions": false,
+    "playUrl": "https://store.steampowered.com/app/4829190/Folkvangr/",
+    "playLabel": "Page in steam",
+     "additionalLinks": [
+  { "label": "Instagram Account", "url": "https://www.instagram.com/silverline.games?mdxt=MXY5ZmxiazVjOXNkYw==" }
+     ]
+  },
+  {
+    "type": "commercial",
+    "name": "Jumping",
+    "subtitle": "IN PROGRESS",
+    "company": "Dino Squire",
+    "categories": ["Android", "Climber Runner", "In-App Purcharse", "Unity", "Generation"],
+    "image": "",
+    "imageAlt": "",
+    "contributions": [
+    "Developed a procedural climbing and level generation system.",
+    "An advanced player controller featuring responsive movement and climbing mechanics.",
+    "Designed the live economy and in-app purchase architecture.",
+    "Implemented an adaptive difficulty system driven by gameplay analytics.",
+    "Built live events, missions, and progression systems to support long-term player engagement."
+  ],
+    "sampleContributions": false
+  },
+  {
+    "type": "personal",
+    "name": "Tetris",
+    "subtitle": "Solo Project",
+    "categories": ["Puzzle", "Arcade", "Unity", "Playfab", "MVC Pattern"],
+    "image": "Images/TetrisPort.jpg",
+    "imageAlt": "Tetris game poster",
+    "contributions": [
+      "Implemented the core piece movement, rotation, and collision rules.",
+      "Built a grid-based board system that detects and clears completed rows.",
+      "Added score tracking and a next-piece preview to support the game loop."
+    ],
+    "sampleContributions": false,
+    "playUrl": "https://danieldiaz00.itch.io/tetris",
+    "playLabel": "Play on itch.io",
+    "repositoryUrl": "https://github.com/DanielDiazDev/Tetris",
+    "repositoryLabel": "View source on GitHub",
+     "additionalLinks": [
+  { "label": "Gameplay", "url": "https://youtube.com/shorts/b6IsOpEBU68?si=Rf6oBFxdkicfZ_72" }
+     ]
+  },
+  {
+    "type": "personal",
+    "name": "Match 3",
+    "subtitle": "Solo Project",
+    "categories": ["Puzzle", "Match", "ADS", "Unity", "MVP Pattern"],
+    "image": "Images/Match 3_ Aventura de Dulces.png",
+    "imageAlt": "Match 3 poster",
+    "contributions": [
+      "Implemented an advertisement system.",
+      "Applied the MVP pattern across multiple UI modules to improve maintainability and scalability.",
+      "Designed a state machine architecture to manage game flow states.",
+      "Developed a custom level editor to streamline content creation",
+      "Leveraged data-driven design principles with dependency injection to build flexible and extensible gameplay systems"
+    ],
+    "sampleContributions": false,
+    "playUrl": "https://danieldiaz00.itch.io/match3",
+    "playLabel": "Play on itch.io",
+    "repositoryUrl": "https://github.com/DanielDiazDev/Match3-Unity",
+    "repositoryLabel": "View source on GitHub",
+     "additionalLinks": [
+  { "label": "Gameplay", "url": "https://youtube.com/shorts/RUzXDpmmWZo?si=5gB0GtBJNMb7v_Pt" }
+     ]
+  },
+  {
+    "type": "personal",
+    "name": "Topic Twister",
+    "subtitle": "RELEASED",
+    "categories": ["Clean Architecture", "Backend/Frontend", "Test", "Trivia", "Unity", "NET Api", "Kotlin(Ktor)", "Mysql", "Firebase"],
+    "company": "Pair Programming Project",
+    "image": "Images/TopicTwister.jpg",
+    "imageAlt": "Topic Twister game poster",
+    "contributions": [
+      "Implemented an advertisement system.",
+      "Applied the MVP pattern across multiple UI modules to improve maintainability and scalability.",
+      "Designed a state machine architecture to manage game flow states.",
+      "Developed a custom level editor to streamline content creation",
+      "Leveraged data-driven design principles with dependency injection to build flexible and extensible gameplay systems"
+    ],
+    "sampleContributions": false,
+    "playUrl": "https://danieldiaz00.itch.io/topic-twister-android",
+    "playLabel": "Play on itch.io (No Api Version)",
+    "repositoryUrl": "https://github.com/DanielDiazDev/Topic-Twister-API",
+    "repositoryLabel": "View source on GitHub"
+  },
+  {
+    "type": "personal",
+    "name": "Survival Game",
+    "subtitle": "IN PROGRESS",
+    "categories": ["Unity", "Building Advanced", "Smart Interact AI", "Survival"],
+    "image": "",
+    "imageAlt": "",
+    "contributions": [
+      "Implemented an building advanced system.",
+      "Designed a AI Smart Interact."
+    ],
+    "sampleContributions": false
+  },
+ {
+    "type": "personal",
+    "name": "Bowling",
+    "subtitle": "RELEASED",
+    "categories": ["Test", "3D", "Unity", "MVP Pattern"],
+    "company": "Pair Programming Project",
+    "image": "Images/Bowling.png",
+    "imageAlt": "Bowling game poster",
+    "contributions": [
+      "Applied the MVP pattern across multiple UI modules to improve maintainability and scalability.",
+      "Developed tests for diffenty layers"
+    ],
+    "sampleContributions": false,
+    "playUrl": "https://danieldiaz00.itch.io/bowling-games",
+    "playLabel": "Play on itch.io ",
+    "repositoryUrl": "https://github.com/DanielDiazDev/bowling-game",
+    "repositoryLabel": "View source on GitHub"
+  },
+ {
+    "type": "personal",
+    "name": "Pomodoro",
+    "subtitle": "RELEASED",
+    "categories": ["Test", "Timer", "Unity", "MVP Pattern"],
+    "company": "Pair Programming Project",
+    "image": "Images/Pomodoro.png",
+    "imageAlt": "Pomodoro game poster",
+    "contributions": [
+      "Applied the MVP pattern across multiple UI modules to improve maintainability and scalability.",
+      "Developed tests for diffenty layers"
+    ],
+    "sampleContributions": false,
+    "playUrl": "https://danieldiaz00.itch.io/kata-pomodoro",
+    "playLabel": "Play on itch.io ",
+    "repositoryUrl": "https://gitlab.com/topictwisterequipo14/codekatapomodoro",
+    "repositoryLabel": "View source on GitLab"
+  }
+]

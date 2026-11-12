@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101114">
+  <meta name="description" content="Video game developer portfolio of Your Name.">
+  <title>Daniel Diaz — Game Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ 
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> PORTFOLIO</p>
+        <h1>Daniel Diaz<span class="accent">.</span></h1>
+        <p class="role">Game Developer<span class="slash"> / </span>Backend Programmer</p>
+        <p class="intro">I create game systems, backend services, and tools that bring interactive experiences to life. From gameplay mechanics to scalable server architectures, I enjoy turning ideas into reliable and engaging products. Explore some of the projects I've worked on and discover the contributions I made to each one.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View projects <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-contact-card" id="contact-links">
+          <p class="hero-contact-heading">CONTACT &amp; PROFILES</p>
+          <div class="hero-contact-links">
+            <a class="hero-contact-link" href="mailto:danieldiazdev00@gmail.com"><span class="hero-contact-label">EMAIL</span><span class="hero-contact-value">danieldiazdev00@gmail.com</span></a>
+            <a class="hero-contact-link" href="https://www.linkedin.com/in/danieldiazdev00" target="_blank" rel="noopener noreferrer"><span class="hero-contact-label">LinkedIn</span><span class="hero-contact-value">Daniel Diaz</span></a>
+            <a class="hero-contact-link" href="https://github.com/DanielDiazDev" target="_blank" rel="noopener noreferrer"><span class="hero-contact-label">GITHUB</span><span class="hero-contact-value">DanielDiazDev</span></a>
+            <a class="hero-contact-link" href="https://danieldiaz00.itch.io" target="_blank" rel="noopener noreferrer"><span class="hero-contact-label">ITCH.IO</span><span class="hero-contact-value">danieldiaz00</span></a>
+          </div>
+      </div>
+      <a class="scroll-cue" href="#projects"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="projects section-wrap" id="projects">
+      <div class="section-heading">
+        <div><p class="eyebrow">SELECTED WORK <span class="heading-line"></span></p><h2>Projects<span class="accent">.</span></h2></div>
+        <p class="section-note">Games I've worked on,<br>from prototype to release.</p>
+      </div>
+
+      <div class="project-tabs" role="tablist" aria-label="Project type">
+        <button class="project-tab is-active" id="tab-commercial" type="button" role="tab" aria-selected="true" aria-controls="panel-commercial" tabindex="0">Commercial Games <span class="tab-count">00</span></button>
+        <button class="project-tab" id="tab-personal" type="button" role="tab" aria-selected="false" aria-controls="panel-personal" tabindex="-1">Personal Games <span class="tab-count">00</span></button>
+      </div>
+
+      <section class="project-group" id="panel-commercial" role="tabpanel" aria-labelledby="tab-commercial" tabindex="0">
+        <div class="group-heading"><h3 id="commercial-title">Commercial Games</h3><span class="group-count">00 —</span></div>
+        <div class="project-list" id="commercial-projects"></div>
+      </section>
+
+      <section class="project-group personal-group" id="panel-personal" role="tabpanel" aria-labelledby="tab-personal" tabindex="0" hidden>
+        <div class="group-heading"><h3 id="personal-title">Personal Games</h3><span class="group-count">00 —</span></div>
+        <div class="project-list" id="personal-projects"></div>
+      </section>
+    </section>
+
+  </main>
+
+  <footer><a class="wordmark" href="#home"></a><p>Designed and developed by Daniel Diaz · 2026</p><div class="footer-links">
+  </div></footer>
+<script src="script.js?v=2"></script>
+</body>
+</html>
